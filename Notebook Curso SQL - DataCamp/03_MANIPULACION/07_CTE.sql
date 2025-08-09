@@ -71,3 +71,4 @@ WITH match_list AS (   -- Set up your CTE
 SELECT league, date, home_goal, away_goal   -- Select the league, date, home, and away goals from the CTE
 FROM match_list
 WHERE total_goals >= 10;  -- Filter by total goals
+
